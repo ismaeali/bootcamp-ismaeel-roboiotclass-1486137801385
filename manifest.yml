@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bootcamp-ismaeel-roboiotclass
+  host: bootcamp-ismaeel-roboiotclass
+  disk_quota: 1024M
+  services:
+  - bootcamp-ismaeel-roboiotclass-cloudantNoSQLDB
+  - bootcamp-ismaeel-roboiotclass-iotf-service
+  - bootcamp-ismaeel-messagehub
+  - ismaeel-Text to Speech
